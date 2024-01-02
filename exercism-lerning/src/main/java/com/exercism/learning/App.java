@@ -1,6 +1,5 @@
 package com.exercism.learning;
 
-import com.exercism.learning.cookLasagna.Lasagna;
 
 /**
  * Hello world!
