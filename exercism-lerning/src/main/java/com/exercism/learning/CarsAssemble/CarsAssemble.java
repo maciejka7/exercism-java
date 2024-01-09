@@ -1,4 +1,4 @@
-package com.exercism.learning.carsAssemble;
+package com.exercism.learning.CarsAssemble;
 
 public class CarsAssemble {
     private final double productionCapacityPerHour = 221;

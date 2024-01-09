@@ -1,9 +1,11 @@
-package com.exercism.learning.carsAssemble;
+package com.exercism.learning.CarsAssemble;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+
+import com.exercism.learning.CarsAssemble.CarsAssemble;
 
 import static org.assertj.core.api.Assertions.*;
 import static org.assertj.core.api.Assertions.within;

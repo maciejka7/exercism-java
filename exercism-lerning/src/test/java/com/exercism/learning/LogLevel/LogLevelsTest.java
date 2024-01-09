@@ -1,8 +1,10 @@
-package com.exercism.learning.logLevel;
+package com.exercism.learning.LogLevel;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+
+import com.exercism.learning.logLevel.LogLevels;
 
 class LogLevelsTest {
     @Test

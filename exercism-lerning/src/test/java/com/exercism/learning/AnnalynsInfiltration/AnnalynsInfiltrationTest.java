@@ -1,4 +1,4 @@
-package com.exercism.learning.annalynsInfiltration;
+package com.exercism.learning.AnnalynsInfiltration;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

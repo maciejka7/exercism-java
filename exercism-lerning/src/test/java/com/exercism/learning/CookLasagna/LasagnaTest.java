@@ -1,8 +1,10 @@
-package com.exercism.learning.cookLasagna;
+package com.exercism.learning.CookLasagna;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+
+import com.exercism.learning.CookLasagna.Lasagna;
 
 class LasagnaTest {
 
