@@ -1,32 +1,32 @@
 package com.exercism.learning.cookLasagna;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class LasagnaTest {
+class LasagnaTest {
 
     private final Lasagna lasagna = new Lasagna();
 
     @Test
-    public void testPreparationTimeInMinutes() {
+    void testPreparationTimeInMinutes() {
 
         assertEquals(4, lasagna.preparationTimeInMinutes(2));
     }
 
     @Test
-    public void testRemainingMinutesInOven() {
+    void testRemainingMinutesInOven() {
 
         assertEquals(10, lasagna.remainingMinutesInOven(30));
     }
 
     @Test
-    public void testTotalTimeInMinutes() {
+    void testTotalTimeInMinutes() {
         assertEquals(26, lasagna.totalTimeInMinutes(3, 20));
     }
 
     @Test
-    public void totalTimeInMinutesForMultipleLayers() {
+    void totalTimeInMinutesForMultipleLayers() {
         assertEquals(16, lasagna.totalTimeInMinutes(4, 8));
     }
 }

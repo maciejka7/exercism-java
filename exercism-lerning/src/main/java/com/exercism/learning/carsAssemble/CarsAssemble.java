@@ -1,19 +1,19 @@
-package carsAssemble;
+package com.exercism.learning.carsAssemble;
 
 public class CarsAssemble {
     private final double productionCapacityPerHour = 221;
-    
+
     public double productionRatePerHour(int speed) {
-        return (speed * this.productionCapacityPerHour) * this.getSuccedRate(speed); 
+        return (speed * this.productionCapacityPerHour) * this.getSuccedRate(speed);
 
     }
 
     public int workingItemsPerMinute(int speed) {
-        return (int)this.productionRatePerHour(speed) / 60;
+        return (int) this.productionRatePerHour(speed) / 60;
     }
 
     private double getSuccedRate(int speed) {
-       if (speed == 0) {
+        if (speed == 0) {
             return 0;
         } else if (speed <= 4) {
             return 1;

@@ -1,4 +1,4 @@
-package annalynsInfiltration;
+package com.exercism.learning.annalynsInfiltration;
 
 class AnnalynsInfiltration {
     public static boolean canFastAttack(boolean knightIsAwake) {
@@ -13,7 +13,8 @@ class AnnalynsInfiltration {
         return prisonerIsAwake && !archerIsAwake;
     }
 
-    public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake, boolean petDogIsPresent) {
+    public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake,
+            boolean petDogIsPresent) {
         return (prisonerIsAwake && !archerIsAwake && !knightIsAwake) || (!archerIsAwake && petDogIsPresent);
     }
 }
