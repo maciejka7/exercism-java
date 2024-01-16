@@ -9,7 +9,7 @@ class ProductionRemoteControlCar implements RemoteControlCar, Comparable<Product
 
     public void drive() {
         this.distanceTravelled += this.DISTANCE;
-    }choco install exercism-io-cli
+    }
 
     public int getDistanceTravelled() {
         return this.distanceTravelled;
